@@ -134,7 +134,6 @@ public class MSButton
         }
       }
       displayLosingMessage();
-      exit();
     } else if (countMines(myRow, myCol) > 0) {
       myLabel = "" + countMines(myRow, myCol);
     } else {
